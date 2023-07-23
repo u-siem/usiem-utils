@@ -1,5 +1,5 @@
 # uSIEM Utils
-![workflow](https://github.com/u-siem/usiem-utils/actions/workflows/rust.yml/badge.svg)
+[![Documentation](https://docs.rs/usiem-utils/badge.svg)](https://docs.rs/usiem-utils) ![crates.io](https://img.shields.io/crates/v/usiem-utils.svg) ![workflow](https://github.com/u-siem/usiem-utils/actions/workflows/rust.yml/badge.svg)
 
 ## Enrichers
 
