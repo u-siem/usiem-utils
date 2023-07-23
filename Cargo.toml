@@ -1,0 +1,23 @@
+[package]
+name = "usiem-utils"
+version = "0.1.0"
+authors = ["Samuel Garcés <samuel.garces@protonmail.com>"]
+license = "MIT"
+description = "A framework for building custom SIEMs"
+repository = "https://github.com/u-siem/usiem-utils"
+keywords = ["SIEM", "security", "logs"]
+categories = ["parsing"]
+edition = "2021"
+
+[features]
+default = []
+slow_geoip = ["u-siem/slow_geoip"]
+
+[dependencies]
+u-siem = {path = "../u-siem-core"}
+serde = "*"
+anyhow = "1"
+zip = "0.6"
+reqwest = "0.11.18"
+tokio = {version = "1", features = ["fs", "macros"]}
+

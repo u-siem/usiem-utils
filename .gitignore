@@ -1,0 +1,4 @@
+/target
+/.vscode
+slow_geo_ip
+Cargo.lock
