@@ -14,7 +14,9 @@ default = []
 slow_geoip = ["u-siem/slow_geoip"]
 
 [dependencies]
-u-siem = {path = "../u-siem-core"}
+u-siem = {version = "0"}
+# Only for developing
+#u-siem = {path = "../u-siem-core"}
 serde = "*"
 anyhow = "1"
 zip = "0.6"
