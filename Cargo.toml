@@ -17,7 +17,7 @@ slow_geoip = ["u-siem/slow_geoip"]
 u-siem = {version = "0"}
 # Only for developing
 #u-siem = {path = "../u-siem-core"}
-serde = "*"
+serde = "1"
 anyhow = "1"
 zip = "0.6"
 reqwest = "0.11.18"
